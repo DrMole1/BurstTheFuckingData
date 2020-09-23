@@ -137,7 +137,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 85
+  controlID: 95
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 86
+  controlID: 96
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 97
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 112
+  controlID: 64
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,7 +381,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
       y: 21
       width: 773
       height: 412
-    m_Scale: {x: 0.5364583, y: 0.5364583}
+    m_Scale: {x: 0.56380206, y: 0.56380206}
     m_Translation: {x: 386.5, y: 206}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -402,12 +402,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -720.46606
-      y: -384
-      width: 1440.9321
-      height: 768
+      x: -685.5243
+      y: -365.37646
+      width: 1371.0486
+      height: 730.7529
     m_MinimalGUI: 1
-  m_defaultScale: 0.5364583
+  m_defaultScale: 0.56380206
   m_LastWindowPixelSize: {x: 773, y: 433}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.11404714, y: 0.016357826, z: -0.0018911676, w: -0.99335396}
     speed: 2
-    m_Value: {x: -0.114045426, y: 0.01635758, z: -0.0018911392, w: -0.99333906}
+    m_Value: {x: -0.11404713, y: 0.016357826, z: -0.0018911676, w: -0.99335396}
   m_Size:
     m_Target: 13.0971775
     speed: 2
@@ -584,9 +584,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2c490000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 42e8ffffd0faffff
+      m_ExpandedIDs: d0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -675,20 +675,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/_Scripts
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/_Scripts
   m_LastFoldersGridSize: 56
-  m_LastProjectPath: "C:\\Users\\rafpr\\Desktop\\Cr\xE9ations\\Unity\\BurstDirtyData"
+  m_LastProjectPath: C:\Users\rafpr\OneDrive\Documents\GitHub\BurstTheFuckingData\BurstDirtyData
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 128}
-    m_SelectedIDs: 44450000
-    m_LastClickedID: 17732
-    m_ExpandedIDs: 000000003e45000040450000424500004445000000ca9a3b
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs: 503b0000
+    m_LastClickedID: 15184
+    m_ExpandedIDs: 00000000363b0000383b00003a3b00003c3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,7 +716,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e450000404500004245000044450000
+    m_ExpandedIDs: 00000000363b0000383b00003a3b00003c3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f6370000145300006a34000066340000e2440000cc450000e03f000030430000625b000080aa050042e20100586200003a700000d66a0000862c2e00da4a0000ae4c0000587d0100fa4e0200ce37080074750000a64b0000a24b000092cc0600a8cc0600d4f114009adf010096ea01009a96000092960000ee940000cc7500003ac301004ac30100e2740000b4950c003e6f000022b500008eb80000aec80000206a0000fe680000666a00005e6a0000805000005c750000000000005a1d0100541b0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1009,6 +1009,7 @@ MonoBehaviour:
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   modes:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
